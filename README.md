@@ -9,23 +9,30 @@ This project analyzes an eCommerce transaction dataset to derive business insigh
 4. Provide recommendations for targeted marketing and customer engagement.
 
 
-## Dataset  
-- **Source**: [Mention dataset source, e.g., Kaggle or proprietary data]  
-- **Files Used**:  
-  - **Customers.csv**: Contains customer demographics (Region, Age, Gender).  
-  - **Transactions.csv**: Includes transaction details (Transaction Value, Frequency).  
+## Dataset   
+**Files Used**:  
+  1. **Customers.csv**  
+     - **CustomerID**: Unique identifier for each customer.  
+     - **CustomerName**: Name of the customer.  
+     - **Region**: Continent where the customer resides.  
+     - **SignupDate**: Date when the customer signed up.  
 
-### Features in Dataset:  
-- **Customer Features**:  
-  - Region (categorical)  
-  - Age (numerical)  
-  - Gender (categorical)  
-- **Transaction Features**:  
-  - Total Transaction Value  
-  - Average Transaction Value  
-  - Transaction Frequency  
+  2. **Products.csv**  
+     - **ProductID**: Unique identifier for each product.  
+     - **ProductName**: Name of the product.  
+     - **Category**: Product category.  
+     - **Price**: Product price in USD.  
 
+  3. **Transactions.csv**  
+     - **TransactionID**: Unique identifier for each transaction.  
+     - **CustomerID**: ID of the customer who made the transaction.  
+     - **ProductID**: ID of the product sold.  
+     - **TransactionDate**: Date of the transaction.  
+     - **Quantity**: Quantity of the product purchased.  
+     - **TotalValue**: Total value of the transaction.  
+     - **Price**: Price of the product sold.
 
+       
 ## Tools & Libraries  
 - **Languages**: Python  
 - **Libraries**:  
