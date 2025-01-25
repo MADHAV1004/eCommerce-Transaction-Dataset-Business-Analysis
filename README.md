@@ -1,0 +1,2 @@
+# eCommerce-Transaction-Dataset-Business-Analysis
+This project analyzes an eCommerce transaction dataset to derive business insights. It includes customer segmentation using K-Means clustering, exploratory data analysis, and clustering evaluation metrics like Silhouette Score. The project provides actionable strategies for targeted marketing and business growth through data-driven decision-making.
